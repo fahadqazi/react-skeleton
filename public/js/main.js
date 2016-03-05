@@ -19053,6 +19053,8 @@ var List = React.createClass({
 
 module.exports = List;
 
+// ingredient={item.text}
+
 },{"./ListItem.jsx":160,"react":157}],160:[function(require,module,exports){
 var React = require('react');
 var ListItem = React.createClass({
@@ -19063,7 +19065,7 @@ var ListItem = React.createClass({
       'li',
       null,
       React.createElement(
-        'h4',
+        'p',
         null,
         this.props.ingredient
       )

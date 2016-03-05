@@ -13,3 +13,6 @@ var List = React.createClass({
 });
 
 module.exports = List;
+
+
+// ingredient={item.text}
